@@ -1,0 +1,26 @@
+{
+  "name": "oramge",
+  "version": "0.0.1",
+  "description": "ORM for browser set of data",
+  "main": "index.js",
+  "dependencies": {
+    "@types/angular": "^1.6.51",
+    "@types/node": "^10.12.2",
+    "angular": "^1.7.5",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.3",
+    "tslint": "^5.11.0",
+    "webpack": "^4.24.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js"
+  },
+  "author": "Pablundom",
+  "license": "Apache-2.0"
+}
